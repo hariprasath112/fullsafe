@@ -6,8 +6,12 @@ from ctypes import windll
 from datetime import datetime,date,timedelta
 from tkcalendar import DateEntry
 import checker
-from tkinter.scrolledtext import ScrolledText
-
+#from tkinter.scrolledtext import ScrolledText
+from tkinter import messagebox
+import openpyxl
+from openpyxl.styles import Alignment
+import os
+import excel
 windll.shcore.SetProcessDpiAwareness(1)
 
 
@@ -102,7 +106,7 @@ product.grid(row=0,column=0,padx=30,pady=10, sticky="ew")
 productEntry=ttk.Entry(productFrame,width=35)
 productEntry.grid(row=0,column=1,padx=30,pady=10, sticky="ew")
 gstGetButton.bind('<Return>',lambda e: productEntry.focus_set())
-#gstNoEntry=
+
 #hsn
 hsn=ttk.Label(productFrame,text="HSN")
 hsn.grid(row=1,column=0,padx=30,pady=10, sticky="ew")
@@ -152,7 +156,7 @@ subEntry.bind('<Return>',lambda e: totalEntry.focus_set())
 
 #button function
 def enterFunc():
-    x=34
+    enterFunction()
 
 def submitCaller():
     enterButton.focus_set()
@@ -168,6 +172,42 @@ redoButton.grid(row=0,column=1,padx=15)
 enterButton=ttk.Button(productFrame,command=enterFunc,text="Submit")
 enterButton.grid(row=5,column=1,sticky='ns',pady=20)
 totalEntry.bind('<Return>',lambda e: submitCaller())
+
+#getting the values
+def enterFunction():
+    getInvoiceNo=invoiceNoEntry.get()
+    getInvoiceDate=invoiceDateEntry.get()
+    getGstNo=gstNoEntry.get()
+    getName=bNameEntry.get()
+    getAdd=bAddEntry.get()
+    getProduct=productEntry.get()
+    getHSN=hsnEntry.get()
+    getSub=subEntry.get()
+    getTaxType=taxTypeEntry.get()
+    getTaxAmt=taxEntry.get()
+    getTotal=totalEntry.get()
+    print(getInvoiceNo,"\n",
+    getInvoiceDate,"\n",
+    getGstNo,"\n",
+    getName,"\n",
+    getAdd,"\n",
+    getProduct,"\n",
+    getHSN,"\n",
+    getSub,"\n",
+    getTaxType,"\n",
+    getTaxAmt,"\n",
+    getTotal,)
+    month=entryMonthEntry.get()
+    year=entryYearEntry.get()
+    bookpath=month+"_"+year
+    path="D:\\fullsafe\\"+year+"\\"+month+"\\"
+    Path=path+"Purchase_"+bookpath+".xlsx"
+    if not os.path.exists(path):
+        os.makedirs(path)
+    if not os.path.exists(Path):
+        excel.push()
+    
+
 
 
 sv_ttk.set_theme("dark") #sets theme
