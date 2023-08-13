@@ -34,6 +34,18 @@ The details are automatically stored in an `.xlsx` file once `Submit` button is 
 ### Accessing File
 The `File` item in the menubar can be clicked to open the file immediately.
 
-## Invoice Details
-### Invoice Number
-Invoice number can be of any alphanumberical character. 
+## Input Specifications
+Inputs having special feature listed. Rest of the inputs are self-explanatory and hence omitted from long explanations. `Invoice Date` supports both alphanumerical characters.
+### Invoice Date
+Using `Enter` key navigation you can reach the box quickly, but unlike other input boxex this has a builtin calendar. Click the `V` to open the calendar and pick the date.
+![image](https://github.com/hariprasath112/fullsafe/assets/96934076/2c2d139a-be2c-4a44-90a3-720c8e30ae99)
+### GSTIN No
+The `✔` button  can be used to request data to be filled, but with pressing `Enter` the process is automatic and you cursor jumps to product name.
+### Sub Total
+After entering the subtotal, when you click `Enter` key the `Tax Amount` and `Total` are generated and the cursor jumps to total. 
+### Submit button
+After confirming the `Total` value you can press `Enter` again, which leads you to the `Submit` button. The data will be uploaded only after you press `Enter` a second time. After than click, the data is added to Excel file and all columns are erased.
+#### Submit & Reuse Button
+This button does the same upload function as the `Submit` button but excludes clearing the `GST No`, `Business Name` and `Business Address` fields. It is suited for entering multiple receipts from same seller. It has to be manually clicked before the second `Enter` click when the `Submit` button is highlighted, preferably once the `Total` is generated.
+#### Clear button
+This clears all values. Only default values like `Entry Month`, `Entry Year` and `Invoice Date` remains.
