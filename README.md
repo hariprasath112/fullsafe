@@ -1,5 +1,8 @@
 # fullsafe
 Windows application that makes it easy to record and maintain buisness's purchase receipts by automatically filling Seller Name, Address with `requests` and auto-displaying Tax Amount and Total with Sub Total Value.
+<p align=center>
+<img src="https://github.com/hariprasath112/fullsafe/assets/96934076/5b708b26-1dfd-475a-9f7b-1b5c31e12698">
+</p>
 
 |  Dark Mode | Light Mode  |
 | ------------ | ------------ |
