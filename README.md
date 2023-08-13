@@ -49,3 +49,29 @@ After confirming the `Total` value you can press `Enter` again, which leads you 
 This button does the same upload function as the `Submit` button but excludes clearing the `GST No`, `Business Name` and `Business Address` fields. It is suited for entering multiple receipts from same seller. It has to be manually clicked before the second `Enter` click when the `Submit` button is highlighted, preferably once the `Total` is generated.
 #### Clear button
 This clears all values. Only default values like `Entry Month`, `Entry Year` and `Invoice Date` remains.
+
+## Changing Preferences
+### Name of User's Organization
+Click `Options`, a message box with a text field pops up. Enter your Organization name and click `OK`. To exit without changing click `Cancel`. Once changed the Organization name is updated only to current Excel file and then saved for future use.
+![image)](https://github.com/hariprasath112/fullsafe/assets/96934076/68ee1dc1-baac-4e5b-a28f-525af3b8ee77)
+### Change font size of the application
+By default, there is two font size groups - Large and Small. Click `Font` to trigger change. Note that change from Small to Large is immediate but changing from Large to Small triggers a auto-restart of the app. Your size preference is saved for the next time app is loaded.
+
+| Dark mode  | Light mode  |
+| ------------ | ------------ |
+| ![image](https://github.com/hariprasath112/fullsafe/assets/96934076/686048d2-21f8-44eb-be23-82d07249b38e)  | ![image](https://github.com/hariprasath112/fullsafe/assets/96934076/f7418a9e-a547-46cb-910f-d067a7524c90)  |
+
+### Changing theme of the application
+Click `View` to trigger theme reversal. This causes the application to restart with desired theme. A error message also warns loss of current data, data submitted earlier is saved. 
+
+## Tax Customizations
+#### Additional
+This text field's value is directly added to `Sub Total` although it may not reflect on the app input box, the `Tax Amount` and `Total` shows correct values. The sub total in the Excel file is a sum of `Additional` and `Sub Total` inputs. This can be utilized to include delivery/handling charges that are cometimes not mentioneted correctly by some sellers.
+
+#### Tax Type Selection
+There is an option to choose between `IGST` and `CGST\SGST` tax types. While either one is selected the other one is empty in the generated spreadsheet.
+
+#### Tax Percentage Selection
+You can choose between a range of values for the tax percentage. Note that the tax rate shown is the cummulative of CGST and SGST.
+![image](https://github.com/hariprasath112/fullsafe/assets/96934076/90058969-e5fa-4c42-af23-e612f02ce7cf)
+
