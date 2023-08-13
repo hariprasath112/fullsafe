@@ -2,7 +2,7 @@
 Windows application that makes it easy to record and maintain buisness's purchase receipts by automatically filling Seller Name, Address with `requests` and auto-displaying Tax Amount and Total with Sub Total Value.
 
 <p align="center">
-  <img alt="Light" src="https://github.com/hariprasath112/fullsafe/assets/96934076/5b708b26-1dfd-475a-9f7b-1b5c31e12698" width=60%" />
+  <img alt="Light" src="https://github.com/hariprasath112/fullsafe/assets/96934076/5b708b26-1dfd-475a-9f7b-1b5c31e12698" width=50%" />
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark", src="https://github.com/hariprasath112/fullsafe/assets/96934076/d518f7e3-cfa4-442b-aa85-6ed14e9d117f" width=30% /> 
 </p>
