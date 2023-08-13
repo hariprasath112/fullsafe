@@ -75,3 +75,19 @@ There is an option to choose between `IGST` and `CGST\SGST` tax types. While eit
 You can choose between a range of values for the tax percentage. Note that the tax rate shown is the cummulative of CGST and SGST.
 ![image](https://github.com/hariprasath112/fullsafe/assets/96934076/90058969-e5fa-4c42-af23-e612f02ce7cf)
 
+## Required Packages (for running main.py)
+Python 3.11.4 was used in building this software. The libraries used are `tkinter`, `sv_ttk`, `ctypes`, `datetype` , `tkcalendar`, `openpyxl`, `os`, `sys`, `ntkutils` and `webbrowser`. Much of the feautures are tailored to Windows operating system. Hence, it is unlikely that the `main.py` is functional in other operating systems.
+
+## Contributing
+Any suggestions you make are greatly appreciated.
+
+- If you have suggestions , feel free to [open an issue](https://github.com/hariprasath112/fullsafe/issues/new) to discuss it, or directly create a pull request after you edit the _main.py_ file with necessary changes.
+- Create individual pull request for each suggestion.
+
+## License
+
+Distributed under License based off on MIT Lience. See [LICENSE](https://github.com/hariprasath112/fullsafe/blob/LICENSE) for more information.
+
+## Authors
+
+**Hariprasath Senthil kumar**  - [LinkedIn](https://linkedin.com/in/hariprasath11) 
