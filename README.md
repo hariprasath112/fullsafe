@@ -4,7 +4,7 @@ Windows application that makes it easy to record and maintain buisness's purchas
 <p align="center">
   <img alt="Light" src="https://github.com/hariprasath112/fullsafe/assets/96934076/5b708b26-1dfd-475a-9f7b-1b5c31e12698" width=60%" />
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark", src="https://github.com/hariprasath112/fullsafe/assets/96934076/d518f7e3-cfa4-442b-aa85-6ed14e9d117f" width=36% /> 
+  <img alt="Dark", src="https://github.com/hariprasath112/fullsafe/assets/96934076/d518f7e3-cfa4-442b-aa85-6ed14e9d117f" width=30% /> 
 </p>
 
 The above GIFs illustrate how the search and entry process is simplified. The Name and Address is got using `HTTP` `GET` and parsed with `BeautifulSoup4` then displayed in a windows built with `Tkinter` and saved as a spreadsheet using `openpyxl`.
