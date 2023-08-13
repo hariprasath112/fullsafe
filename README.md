@@ -93,7 +93,7 @@ You can choose between a range of values for the tax percentage. Note that the t
 ![image](https://github.com/hariprasath112/fullsafe/assets/96934076/90058969-e5fa-4c42-af23-e612f02ce7cf)
 
 ## Required Packages (for running main.py)
-Python 3.11.4 was used in building this software. The libraries used are `tkinter`, `sv_ttk`, `ctypes`, `datetype` , `tkcalendar`, `openpyxl`, `os`, `sys, `ntkutils`, `bs4` and `webbrowser`. Much of the feautures are tailored to Windows operating system. Hence, it is unlikely that the `main.py` is functional in other operating systems.
+Python 3.11.4 was used in building this software. The libraries used are `tkinter`, `sv_ttk`, `ctypes`, `datetype`, `tkcalendar`, `openpyxl`, `os`, `sys`, `ntkutils`, `bs4` and `webbrowser`. Much of the feautures are tailored to Windows operating system. Hence, it is unlikely that the `main.py` is functional in other operating systems.
 
 ## Contributing
 Any suggestions you make are greatly appreciated.
