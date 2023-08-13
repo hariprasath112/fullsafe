@@ -20,7 +20,20 @@ The release are built for Windows operating system. For MacOS/Linux you can try 
 | `View`  | Change the color them of the window  |
 | `Help`  | Opens this Github repository page  |
 
+## Navigation in the application
+The program allows clicking `Enter` key to jump to the next value, this also has the feature of triggering the functions associated with them. The default chain of navigation through `Enter` Key where each `-->` denotes a click of `Enter` key
+
+`Invoice Date` --> `Invoice Date` --> `GST No.` --> Generates Seller Name and Address from GST No. and autofills --> `Product Name` --> `HSN` --> `Sub Total` --> Generates Tax value and Total Value --> `Total` --> `Submit` --> Adds to Spreadsheet and clear all Fields --> `Invoice Date`
+
+Just like using Microsoft Excel you can navigate the entire software with `Enter` keys, thus saving time that is consumed with mannual navigation using a mouse.
+
 ## Entry Configuration
 The `Entry Month` is always set to previous month. `Entry Year` is set to always display current year, adjustments has been made to display previous year during the month of December (i.e. entry takes place on January)
 ### File naming
-The details are automatically stored in an `.xlsx` file once `Submit` button is hit
+The details are automatically stored in an `.xlsx` file once `Submit` button is hit. The file is stored in the location `E:\fullsafe\{year}\{month}` and the file name is in the format `Purchase_{month}{year}.xlsx`. The `Month` and `year` is determined from the values of `Entry Month` and `Entry Year`.
+### Accessing File
+The `File` item in the menubar can be clicked to open the file immediately.
+
+## Invoice Details
+### Invoice Number
+Invoice number can be of any alphanumberical character. 
